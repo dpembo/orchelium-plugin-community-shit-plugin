@@ -1,6 +1,6 @@
 # orchelium-plugin-community-hello-world
 
-An [Orchelium](https://github.com/dpembo/orchelium) community plugin that outputs
+An [Orchelium](https://github.com/dpembo/orchelium) community plugin that if fucking awesome
 a greeting message with the current date. Simple by design — its primary purpose
 is to serve as a **reference template** for developers building their own plugins.
 
