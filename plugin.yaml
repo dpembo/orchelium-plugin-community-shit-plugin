@@ -1,0 +1,36 @@
+name: hello-world
+version: 1.0.0
+label: Hello World
+description: |
+  A minimal example plugin that outputs a greeting message with the current date.
+  Use this as a starting point and reference template when building your own
+  Orchelium community plugins.
+source: community
+maintainer: "dpembo"
+repository_url: "https://github.com/dpembo/orchelium-plugin-community-hello-world"
+category: tools
+tags: [example, template, hello-world, starter]
+
+inputs:
+  - name: greeting
+    label: Greeting Message
+    type: string
+    required: true
+    placeholder: "Hello"
+    description: |
+      The greeting word or phrase to display.
+      e.g. Hello, Good morning, Greetings
+
+  - name: recipient
+    label: Name
+    type: string
+    required: true
+    placeholder: "World"
+    description: |
+      The name of the person or system being greeted.
+      e.g. World, Dave, Proxmox-01
+
+command: ./run.sh
+
+output:
+  format: auto
