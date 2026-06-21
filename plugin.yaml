@@ -1,8 +1,8 @@
-name: hello-world
+name: shit-plugin
 version: 1.0.0
-label: Hello World
+label: Shit Plugin
 description: |
-  A minimal example plugin that outputs a greeting message with the current date.
+  A shit example plugin that fucks you over with a greeting message.
   Use this as a starting point and reference template when building your own
   Orchelium community plugins.
 source: community
