@@ -5,15 +5,15 @@ description: |
   A shit example plugin that fucks you over with a greeting message.
   Use this as a starting point and reference template when building your own
   Orchelium community plugins.
-source: community
+source: orchelium
 maintainer: "dpembo"
 repository_url: "https://github.com/dpembo/orchelium-plugin-community-hello-world"
 category: tools
 tags: [example, template, hello-world, starter]
 
 inputs:
-  - name: greeting
-    label: Greeting Message
+  - name: Fuck
+    label: Bend over and take it bitch
     type: string
     required: true
     placeholder: "Hello"
